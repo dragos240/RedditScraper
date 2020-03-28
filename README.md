@@ -2,11 +2,21 @@
 
 A Reddit user comments and data scraper using PRAW
 
+**Note:** This was tested with praw 6.5.1 with Python 3.8.
+
 ## Config files setup
 
 1. Create a reddit app [here](https://www.reddit.com/prefs/apps/). Choose "personal use script".
 2. Copy `credentials.default.json` to `credentials.json` and fill in your `app_id` (located under "personal use script"), `app_secret` and `user_agent` (the name of your app).
 3. Copy `config.default.json` to `config.json` and change at least the `redditor` field to the name of the user you wish to scrape from.
+
+## Install PRAW
+
+You can install PRAW through pip with:
+
+```
+pip3 install --user praw==6.5.1
+```
 
 ## Usage
 
