@@ -1,0 +1,6 @@
+config.json
+credentials.json
+comments/*
+posts/*
+comments.json
+posts.json

@@ -1,0 +1,7 @@
+{
+    "comments_folder": "comments",
+    "posts_folder": "posts",
+    "comments_file": "comments.json",
+    "posts_file": "posts.json",
+    "redditor": ""
+}
